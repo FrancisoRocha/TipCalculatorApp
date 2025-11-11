@@ -3,7 +3,10 @@ function App() {
 
   return (
     <>
-        <p className='font-[Space_Mono] text-3xl'>Hola Mundo!!!</p>
+        <header className="flex justify-center items-center my-11 md:my-11 xl:my-40">
+            <img src="/img/logo.svg" alt="logo" />
+        </header>
+        {/* CONTENIDO DE LA CALCULADORA */}
     </>
   )
 }
